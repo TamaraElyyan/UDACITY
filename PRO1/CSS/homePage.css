@@ -1,0 +1,184 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+.hero-content {
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.hero-content p {
+  padding-bottom: 1rem;
+}
+
+.Register-buttons a {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image {
+  display: flex;
+}
+
+.hero-image img {
+  width: 500px;
+  margin-left: 1rem;
+  border-radius: 20px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 10%;
+  text-align: center;
+}
+
+.h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.feature {
+  max-width: 30%;
+}
+
+.feature i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.feature h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 10%;
+}
+
+.testimonials h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+.testimonial {
+  max-width: 45%;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.customer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.customer-info span {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 3% 5%;
+  }
+
+  .hero-content,
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .hero-image img {
+    width: 80%; /* Adjust image size */
+    max-width: 400px; /* Limit max width for better responsiveness */
+  }
+
+  /* Features Section */
+  .features {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5%;
+  }
+
+  .feature {
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .feature i {
+    font-size: 2.5rem; /* Adjust icon size for smaller screens */
+  }
+
+  .feature h3 {
+    font-size: 1.3rem;
+  }
+
+  .feature p {
+    font-size: 1rem;
+  }
+
+  /* Testimonials Section */
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5%;
+  }
+
+  .testimonial {
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  /* Customer Info Section */
+  .customer-info img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .customer-info span {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,81 @@
+/* Global Reset and styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Contact Us Page Styles */
+.contact-us {
+  padding: 40px;
+}
+
+.contact-us h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Grid Styles */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
